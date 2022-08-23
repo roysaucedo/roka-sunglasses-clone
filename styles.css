@@ -37,7 +37,7 @@ a {
 
 section {
     padding: 20px 0;
-    margin-top: 20;
+    margin: 0 20px;
 }
 
 .outline-button {
@@ -88,7 +88,6 @@ nav {
     width: auto;
     height: 60vh;
     padding: 20px;
-    margin: 0 20px;
     display: flex;
     align-items: flex-end;
     padding-bottom: 40px;
@@ -100,4 +99,61 @@ nav {
 
 .cta-div :nth-child(2){
     margin-left: 10px;
+}
+
+.collection-card-div {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.collection-card>img {
+    width: 400px;
+}
+
+.collection-link {
+    display: flex;
+    align-items: center;
+}
+
+.collection-link>* {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.collection-link>img {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.banner-img-div {
+    width: auto;
+    height: 40vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.808)),
+    url(/imgs/bg-nature.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 60px;
+}
+
+.banner-img-div>div{
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+.banner-img-div>div>h2{
+    font-size: 4rem;
+    line-height: 3.4rem;
+    margin-bottom: 5px;
+}
+
+.banner-img-div>div>p{
+    font-size: 1.2rem;
+    font-weight: 300;
 }
