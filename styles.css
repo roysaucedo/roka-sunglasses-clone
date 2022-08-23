@@ -29,5 +29,22 @@ p [
 ]
 
 a {
+    color: white;
     text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.outline-button {
+    margin-top: 40px;
+}
+
+
+.hero-div {
+    color: white;
+    background-image: url(/imgs/bg-img.jpg);
+    width: auto;
+    height: 40vh;
 }
