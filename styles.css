@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Rajdhani', sans-serif;
-    padding: 20px;
     
 }
 
 h1 {
     font-family: 'Teko', sans-serif; 
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 5rem;
+    line-height: 4rem;
 }
 
 h2 {
@@ -30,12 +30,14 @@ p {
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
+    font-weight: 600;
 }
 
 section {
     padding: 20px 0;
+    margin-top: 20;
 }
 
 .outline-button {
@@ -49,12 +51,32 @@ section {
 
 nav {
     border-bottom: 8px solid black;
-    position: sticky;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo>img {
     height: 40px;
+    padding-left: 20px;
+}
 
+.desktop-nav-links-div>a {
+    margin: 0 20px;
+}
+
+.nav-icons-div {
+    padding-right: 20px;
+}
+
+.nav-icons-div>img {
+    height: 25px;
+    margin-left: 10px;
 }
 
 
@@ -65,7 +87,8 @@ nav {
     background-size: cover;
     width: auto;
     height: 60vh;
-    padding: 40px;
+    padding: 20px;
+    margin: 0 20px;
     display: flex;
     align-items: flex-end;
     padding-bottom: 40px;
