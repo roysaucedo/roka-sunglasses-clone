@@ -158,6 +158,22 @@ nav {
     font-weight: 300;
 }
 
+.feature-in-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-in-h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.featured-in-img {
+    width: 80%;
+}
+
+
 footer {
     margin: 60px 20px;
 }
