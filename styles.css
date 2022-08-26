@@ -157,3 +157,54 @@ nav {
     font-size: 1.2rem;
     font-weight: 300;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 20px;
+    justify-content: center;
+}
+
+footer>p {
+    margin: auto;
+
+}
+
+footer>img {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.footer-link-main-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    max-width: 1200px;
+}
+
+.footer-link-div>h2 {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+    
+
+.footer-link-div>a>p {
+    margin-bottom: 10px;
+    font-weight: 200;
+    
+}
+
+input[type=text] {
+    width: 100%;
+
+}
+
+input[type=submit] {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
