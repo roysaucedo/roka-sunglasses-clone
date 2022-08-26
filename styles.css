@@ -160,17 +160,20 @@ nav {
 
 .feature-in-flex {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
 }
 
 .featured-in-h2 {
     font-family: 'Rajdhani', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .featured-in-img {
-    width: 80%;
+    width: 75%;
 }
 
 
