@@ -104,7 +104,7 @@ nav {
 .collection-card-div {
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .collection-card>img {
@@ -159,29 +159,35 @@ nav {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
     margin: 60px 20px;
-    justify-content: center;
 }
+
 
 footer>p {
-    margin: auto;
+    font-weight: 200;
+    text-align: center;
 
 }
 
-footer>img {
-    width: 100px;
-    margin: auto;
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
     margin-bottom: 40px;
 }
 
-.footer-link-main-div{
+.footer-logo>img {
+    width: 100px;
+}
+
+
+.footer-flex-div {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
-    max-width: 1200px;
+    max-width: 1000px;
+    margin: 40px auto;
 }
+
 
 .footer-link-div>h2 {
     font-weight: 200;
@@ -193,6 +199,19 @@ footer>img {
     margin-bottom: 10px;
     font-weight: 200;
     
+}
+
+
+.footer-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+
+.footer-form {
+    width: 30%;
 }
 
 input[type=text] {
